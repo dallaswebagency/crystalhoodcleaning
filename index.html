@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Crystal Hood Cleaning | Commercial Kitchen Hood Cleaning in Edmonton</title>
+<meta name="description" content="Crystal Hood Cleaning provides commercial kitchen hood and exhaust system cleaning. PAC certified, PA qualified, working to region’s bylaws and fire code regulations. Call 780-964-4122.">
+<meta name="theme-color" content="#1F272E">
+<link rel="icon" href="images/logo-mark-green.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --slate:#1F272E;      /* hood slate, from the logo card */
+  --duct:#2B353E;
+  --duct-2:#36424C;
+  --green:#7CD853;      /* exact logo green */
+  --green-ink:#2E7A1C;  /* logo green darkened for text on light */
+  --steel:#E6E9EC;
+  --steel-2:#D5DADF;
+  --line:#BFC6CD;
+  --paper:#FFFFFF;
+  --ink:#1F272E;
+  --ink-soft:#4D5862;
+  --on-dark:#EEF2F4;
+  --on-dark-soft:#A9B4BD;
+  --radius-s:4px;
+  --radius-l:14px;
+  --font:"Archivo","Helvetica Neue",Arial,sans-serif;
+  color-scheme:light;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --steel:#252E36;--steel-2:#2E3943;--line:#3F4B56;--paper:#1B2228;
+    --ink:#EEF2F4;--ink-soft:#AAB5BE;--green-ink:#8FDF6C;color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --steel:#252E36;--steel-2:#2E3943;--line:#3F4B56;--paper:#1B2228;
+  --ink:#EEF2F4;--ink-soft:#AAB5BE;--green-ink:#8FDF6C;color-scheme:dark;
+}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-behavior:smooth;scroll-padding-top:calc(env(safe-area-inset-top,0px) + 80px)}
+body{margin:0;background:var(--steel);color:var(--ink);font-family:var(--font);font-size:1.0625rem;line-height:1.6;-webkit-font-smoothing:antialiased}
+img{max-width:100%;height:auto;display:block}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--green);outline-offset:3px;border-radius:2px}
+.wrap{width:min(1200px,100% - 2.5rem);margin-inline:auto}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* Headline type: Archivo stretched wide, the page's voice */
+.h-wide{font-stretch:125%;font-weight:800;letter-spacing:-.01em;line-height:1.02;margin:0}
+.h-sec{font-size:clamp(2rem,4.2vw,3.25rem)}
+.lede{color:var(--ink-soft);max-width:60ch;margin:1rem 0 0}
+
+/* Buttons */
+.btn{display:inline-flex;align-items:center;gap:.6rem;font:inherit;font-weight:700;font-stretch:110%;text-decoration:none;border:0;cursor:pointer;padding:.95rem 1.4rem;border-radius:var(--radius-s);line-height:1.1}
+.btn-green{background:var(--green);color:#14200E}
+.btn-green:hover{background:#94E670}
+.btn-ghost{color:var(--on-dark);box-shadow:inset 0 0 0 1.5px rgba(238,242,244,.35)}
+.btn-ghost:hover{box-shadow:inset 0 0 0 1.5px var(--green)}
+.btn-ink{background:var(--slate);color:#fff}
+.btn-ink:hover{background:var(--duct-2)}
+.btn svg{width:1.1em;height:1.1em;flex:none}
+
+/* ---------- Top bar + header (inside the hood) ---------- */
+.hood{background:var(--slate);color:var(--on-dark);position:relative;overflow:hidden}
+.topbar{border-bottom:1px solid rgba(255,255,255,.07);font-size:.875rem;color:var(--on-dark-soft)}
+.topbar .wrap{display:flex;justify-content:space-between;gap:1rem;padding:.55rem 0;flex-wrap:wrap}
+.topbar a{text-decoration:none}
+.topbar a:hover{color:var(--green)}
+.topbar .tb-l{display:flex;gap:1.5rem;flex-wrap:wrap}
+.topbar .tb-r{display:flex;gap:.9rem;align-items:center}
+.soc{display:inline-flex;width:30px;height:30px;align-items:center;justify-content:center;border-radius:50%;color:var(--on-dark-soft)}
+.soc:hover{color:var(--green);background:rgba(124,216,83,.1)}
+.soc svg{width:16px;height:16px}
+
+.nav{position:sticky;top:0;z-index:50;background:var(--slate);transition:box-shadow .2s}
+.nav.scrolled{box-shadow:0 1px 0 rgba(255,255,255,.08)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:60;background:var(--slate)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:1.5rem;padding:.9rem 0}
+.brand img{height:66px;width:auto}
+.menu{display:flex;gap:2rem;list-style:none;margin:0;padding:0}
+.menu a{text-decoration:none;font-weight:600;font-stretch:108%;color:var(--on-dark);padding:.4rem 0;border-bottom:2px solid transparent}
+.menu a:hover,.menu a[aria-current]{border-color:var(--green)}
+.nav-cta{display:flex;gap:.75rem;align-items:center}
+.nav-phone{font-weight:700;font-stretch:112%;text-decoration:none;color:var(--green);white-space:nowrap}
+.burger{display:none;background:none;border:0;color:var(--on-dark);padding:.5rem;cursor:pointer}
+.burger svg{width:28px;height:28px}
+
+/* ---------- Hero ---------- */
+.hero{position:relative;padding:3.5rem 0 0}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:3.5rem;align-items:end}
+.hero h1{font-size:clamp(2.3rem,5.3vw,4.6rem);font-stretch:125%;font-weight:850;line-height:.96;letter-spacing:-.02em;margin:0}
+.hero h1 span{display:block}
+.hero .tag{font-size:clamp(1.15rem,1.8vw,1.45rem);font-weight:500;font-stretch:112%;color:var(--green);margin:1.1rem 0 0}
+.hero p.intro{color:var(--on-dark-soft);max-width:52ch;margin:1.25rem 0 0}
+.hero-ctas{display:flex;gap:.8rem;flex-wrap:wrap;margin-top:2rem}
+.hero-copy{padding-bottom:3.25rem}
+.checks{list-style:none;padding:0;margin:2.25rem 0 0;display:grid;grid-template-columns:1fr 1fr;gap:.55rem 1.5rem;font-size:.95rem;color:var(--on-dark)}
+.checks li{display:flex;gap:.6rem;align-items:flex-start}
+.checks li::before{content:"";flex:none;width:14px;height:8px;margin-top:.45rem;border-left:2.5px solid var(--green);border-bottom:2.5px solid var(--green);transform:rotate(-45deg)}
+
+/* Hero photo: sits under the hood like the cooking line */
+.hero-photo{position:relative;align-self:stretch;min-height:520px}
+.hero-photo .frame{position:absolute;inset:0;border-radius:var(--radius-l) var(--radius-l) 0 0;overflow:hidden}
+.hero-photo img{width:100%;height:100%;object-fit:cover;object-position:30% 50%}
+.hero-photo .badge{position:absolute;left:-2.25rem;bottom:2.25rem;background:var(--paper);color:var(--ink);border-radius:var(--radius-s);padding:1rem 1.15rem;display:flex;gap:.9rem;align-items:center;box-shadow:0 18px 40px -18px rgba(0,0,0,.55);max-width:300px}
+.hero-photo .badge img{width:54px;height:auto;border-radius:3px}
+.hero-photo .badge strong{display:block;font-stretch:112%;line-height:1.2}
+.hero-photo .badge span{font-size:.85rem;color:var(--ink-soft);line-height:1.35;display:block}
+
+
+/* The hood lip: baffle filters + the logo's dot-line-dot light strip */
+.lip{position:relative;height:74px;background:
+  repeating-linear-gradient(115deg,#C9D0D6 0 9px,#9AA4AD 9px 12px,#E3E7EA 12px 22px,#AEB7BF 22px 24px);
+  border-top:10px solid #3A4651;box-shadow:inset 0 10px 18px -8px rgba(0,0,0,.45)}
+.lip::after{content:"";position:absolute;inset:auto 0 0;height:6px;background:#3A4651}
+.strip{position:absolute;left:max(1.25rem,calc((100% - 1200px)/2));top:-5px;transform:translateY(-50%);display:flex;gap:10px;align-items:center;height:10px}
+.strip i{display:block;width:10px;height:6px;background:var(--green);border-radius:1px}
+.strip b{display:block;width:200px;height:4px;background:var(--green);border-radius:2px;margin:0 12px}
+
+/* ---------- Credentials ---------- */
+.creds{background:var(--paper);border-bottom:1px solid var(--line)}
+.creds .wrap{display:grid;grid-template-columns:auto 1fr;gap:3rem;align-items:center;padding:2.25rem 0}
+.creds-logos{display:flex;gap:1.25rem;align-items:center}
+.creds-logos img{height:86px;width:auto;background:#fff;border-radius:6px;padding:6px}
+.creds p{margin:0;font-size:1.15rem;font-stretch:108%;max-width:62ch}
+.creds p strong{font-weight:750}
+
+/* ---------- About ---------- */
+.about{padding:6.5rem 0}
+.about-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:4.5rem;align-items:center}
+.about-photo{position:relative}
+.about-photo img{border-radius:var(--radius-l);aspect-ratio:1/1;object-position:60% 30%;object-fit:cover;width:100%}
+.about-photo figcaption{position:absolute;right:-1.5rem;top:2rem;background:var(--slate);color:var(--on-dark);padding:.8rem 1.1rem;border-radius:var(--radius-s);font-size:.9rem;font-weight:600;font-stretch:110%;border-left:4px solid var(--green)}
+.about h2{font-size:clamp(2rem,3.6vw,3rem)}
+.facts{list-style:none;padding:0;margin:2.25rem 0 0;border-top:1px solid var(--line)}
+.facts li{display:grid;grid-template-columns:2.25rem 1fr;gap:.75rem;padding:1rem 0;border-bottom:1px solid var(--line)}
+.facts svg{width:26px;height:26px;color:var(--green-ink);margin-top:2px}
+.facts strong{font-stretch:110%;display:block}
+.facts span{color:var(--ink-soft);font-size:.95rem}
+.about .btn{margin-top:2.25rem}
+
+/* ---------- Why it matters ---------- */
+.why{background:var(--slate);color:var(--on-dark);padding:6rem 0;position:relative}
+.why-head{display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:end}
+.why-head p{color:var(--on-dark-soft);margin:0;max-width:52ch}
+.why-list{display:grid;grid-template-columns:repeat(3,1fr);margin-top:3.5rem;border-top:1px solid rgba(255,255,255,.12)}
+.why-list article{padding:2rem 2rem 0 0}
+.why-list article+article{padding-left:2rem;border-left:1px solid rgba(255,255,255,.12)}
+.why-list svg{width:44px;height:44px;color:var(--green)}
+.why-list h3{font-stretch:118%;font-weight:750;font-size:1.4rem;margin:1.1rem 0 .5rem;line-height:1.2}
+.why-list p{margin:0;color:var(--on-dark-soft);font-size:.98rem}
+
+/* ---------- Services along the exhaust path ---------- */
+.services{padding:6.5rem 0}
+.services-grid{display:grid;grid-template-columns:380px 1fr;gap:4rem;margin-top:3.5rem;align-items:start}
+.schematic{position:sticky;top:110px;background:var(--paper);border:1px solid var(--line);border-radius:var(--radius-l);padding:1.25rem}
+.schematic svg{width:100%;height:auto;display:block}
+.schematic .cap{font-size:.85rem;color:var(--ink-soft);margin:.75rem .25rem 0}
+.sch-stroke{stroke:var(--ink);fill:none;stroke-width:2.5;stroke-linejoin:round}
+.sch-fill{fill:var(--steel-2)}
+.sch-faint{stroke:var(--line);stroke-width:2;fill:none}
+.pin circle.halo{fill:var(--green);opacity:0;transition:opacity .2s, r .2s}
+.pin circle.dot{fill:var(--green);stroke:var(--slate);stroke-width:2.5}
+.pin text{font:700 13px var(--font);fill:var(--slate)}
+.pin.on circle.halo{opacity:.3}
+.svc-list{list-style:none;margin:0;padding:0;display:grid;gap:1.25rem}
+.svc{display:grid;grid-template-columns:240px 1fr;gap:1.75rem;background:var(--paper);border:1px solid var(--line);border-radius:var(--radius-l);padding:1rem;align-items:center;transition:border-color .2s}
+.svc.on{border-color:var(--green-ink)}
+.svc img{border-radius:8px;aspect-ratio:4/3;object-fit:cover;width:100%}
+.svc .where{display:inline-flex;align-items:center;gap:.45rem;font-size:.85rem;font-weight:650;color:var(--green-ink)}
+.svc .where::before{content:"";width:9px;height:9px;border-radius:50%;background:var(--green);box-shadow:0 0 0 2px var(--slate)}
+.svc h3{font-stretch:115%;font-weight:780;font-size:1.35rem;line-height:1.2;margin:.35rem 0 .45rem}
+.svc p{margin:0;color:var(--ink-soft);font-size:.97rem;max-width:56ch}
+.svc-foot{display:flex;gap:1rem;align-items:center;flex-wrap:wrap;margin-top:2rem}
+.svc-foot p{margin:0;color:var(--ink-soft)}
+
+/* ---------- When to call ---------- */
+.when{padding:0 0 6.5rem}
+.when-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.25rem;margin-top:2.75rem}
+.when-card{position:relative;border-radius:var(--radius-l);overflow:hidden;min-height:360px;display:flex;align-items:flex-end;color:#fff}
+.when-card img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.when-card::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(31,39,46,0) 25%,rgba(31,39,46,.92) 100%)}
+.when-card div{position:relative;z-index:1;padding:2rem}
+.when-card h3{font-stretch:120%;font-weight:800;font-size:clamp(1.5rem,2.4vw,2rem);line-height:1.1;margin:0 0 .5rem}
+.when-card p{margin:0;color:#D7DEE3;max-width:44ch}
+.when-or{text-align:center;margin:1.75rem 0 0;font-size:1.15rem;font-stretch:112%}
+.when-or strong{color:var(--green-ink)}
+
+/* ---------- Testimonials ---------- */
+.reviews{background:var(--paper);padding:6rem 0;border-block:1px solid var(--line)}
+.reviews-grid{display:grid;grid-template-columns:1.3fr 1fr;gap:3rem;align-items:start}
+blockquote{margin:0}
+.q-big p{font-size:clamp(1.5rem,2.7vw,2.25rem);font-stretch:108%;font-weight:600;line-height:1.28;margin:0;text-wrap:pretty}
+.q-big svg{width:56px;height:44px;color:var(--green);margin-bottom:1.25rem}
+.q-by{display:flex;align-items:center;gap:.8rem;margin-top:1.5rem;font-weight:700;font-stretch:110%}
+.q-by i{width:42px;height:42px;border-radius:50%;background:var(--slate);color:var(--green);display:inline-flex;align-items:center;justify-content:center;font-style:normal}
+.q-by small{display:block;font-weight:500;color:var(--ink-soft);font-size:.85rem}
+.q-side{background:var(--steel);border-radius:var(--radius-l);padding:2rem}
+.q-side p{margin:0;font-size:1.08rem;line-height:1.55}
+.stars{color:#E9A515;letter-spacing:2px;font-size:1.05rem;margin-bottom:.75rem}
+
+/* ---------- Contact / quote ---------- */
+.contact{background:var(--slate);color:var(--on-dark);padding:6.5rem 0;position:relative;overflow:hidden}
+.contact-grid{display:grid;grid-template-columns:1fr 1.05fr;gap:4rem;align-items:start}
+.contact h2{color:#fff}
+.contact .lede{color:var(--on-dark-soft)}
+.c-list{list-style:none;padding:0;margin:2.5rem 0 0;display:grid;gap:1.1rem}
+.c-list li{display:grid;grid-template-columns:46px 1fr;gap:1rem;align-items:center}
+.c-list .ic{width:46px;height:46px;border-radius:50%;background:var(--duct);display:flex;align-items:center;justify-content:center;color:var(--green)}
+.c-list .ic svg{width:20px;height:20px}
+.c-list small{display:block;color:var(--on-dark-soft);font-size:.82rem}
+.c-list a,.c-list span.v{font-weight:650;font-stretch:108%;text-decoration:none;font-size:1.08rem}
+.c-list a:hover{color:var(--green)}
+.c-soc{display:flex;gap:.5rem;margin-top:2rem}
+.c-soc .soc{width:42px;height:42px;background:var(--duct);color:var(--on-dark)}
+.form{background:var(--paper);color:var(--ink);border-radius:var(--radius-l);padding:2.25rem;border-top:6px solid var(--green)}
+.form h3{font-stretch:118%;font-weight:800;font-size:1.6rem;margin:0}
+.form > p{margin:.4rem 0 1.5rem;color:var(--ink-soft);font-size:.95rem}
+.fg{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+.f{display:flex;flex-direction:column;gap:.35rem}
+.f.full{grid-column:1/-1}
+.f label{font-weight:650;font-size:.9rem}
+.f input,.f select,.f textarea{font:inherit;font-size:1rem;color:var(--ink);background:var(--steel);border:1.5px solid transparent;border-radius:var(--radius-s);padding:.8rem .9rem;width:100%}
+.f input:focus,.f select:focus,.f textarea:focus{outline:none;border-color:var(--green-ink);background:var(--paper)}
+.f textarea{min-height:110px;resize:vertical}
+.f .err{display:none;color:#B3261E;font-size:.82rem}
+.f.bad .err{display:block}
+.f.bad input,.f.bad select{border-color:#B3261E}
+.form-actions{display:flex;gap:.75rem;flex-wrap:wrap;margin-top:1.4rem}
+.form-note{font-size:.85rem;color:var(--ink-soft);margin:1rem 0 0}
+
+/* ---------- Footer ---------- */
+footer{background:#182026;color:var(--on-dark-soft);padding:4.5rem 0 0;font-size:.95rem}
+.f-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1.2fr;gap:2.5rem}
+.f-brand img{width:210px;height:auto}
+.f-brand p{margin:1.1rem 0 0;max-width:34ch}
+footer h4{color:#fff;font-stretch:115%;font-weight:750;font-size:1rem;margin:0 0 1rem}
+footer ul{list-style:none;margin:0;padding:0;display:grid;gap:.55rem}
+footer a{text-decoration:none}
+footer a:hover{color:var(--green)}
+.f-bottom{margin-top:3.5rem;border-top:1px solid rgba(255,255,255,.08);padding:1.4rem 0 1.6rem;display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;font-size:.875rem}
+.f-bottom a{color:var(--green);font-weight:600}
+
+/* Mobile sticky action bar */
+.mbar{display:none}
+
+/* ---------- Responsive ---------- */
+@media (max-width:1060px){
+  .menu{gap:1.4rem}.nav-phone{display:none}
+  .services-grid{grid-template-columns:1fr}
+  .schematic{position:relative;top:0;max-width:520px}
+  .schematic svg{max-height:420px}
+  .f-grid{grid-template-columns:1fr 1fr}
+}
+@media (max-width:900px){
+  .menu,.nav-cta .btn{display:none}
+  .burger{display:block}
+  .menu.open{display:flex;flex-direction:column;position:absolute;left:0;right:0;top:100%;background:var(--slate);padding:1rem 1.25rem 1.5rem;gap:.25rem;border-top:1px solid rgba(255,255,255,.08)}
+  .menu.open a{display:block;padding:.75rem 0;font-size:1.1rem}
+  .hero-grid,.about-grid,.why-head,.reviews-grid,.contact-grid{grid-template-columns:1fr}
+  .hero-grid{gap:0}
+  .hero-photo{min-height:340px}
+  .hero-photo .badge{left:1rem;bottom:1rem}
+  .about-photo figcaption{right:1rem}
+  .why-list{grid-template-columns:1fr}
+  .why-list article,.why-list article+article{padding:1.75rem 0;border-left:0;border-bottom:1px solid rgba(255,255,255,.12)}
+  .creds .wrap{grid-template-columns:1fr;gap:1.25rem}
+  .when-grid{grid-template-columns:1fr}
+  .topbar .tb-l a:nth-child(3){display:none}
+}
+@media (max-width:640px){
+  body{font-size:1rem;padding-bottom:72px}
+  .brand img{height:48px}
+  .schematic svg{max-height:300px}
+  .checks{grid-template-columns:1fr}
+  .svc{grid-template-columns:1fr}
+  .fg{grid-template-columns:1fr}
+  .form{padding:1.5rem}
+  .creds-logos img{height:64px}
+  .f-grid{grid-template-columns:1fr}
+  .strip b{width:90px}
+  .topbar .tb-r{display:none}
+  .mbar{display:grid;grid-template-columns:1fr 1fr;gap:.6rem;position:fixed;left:0;right:0;bottom:0;z-index:70;background:var(--slate);padding:.6rem .75rem calc(.6rem + env(safe-area-inset-bottom,0px));box-shadow:0 -1px 0 rgba(255,255,255,.08)}
+  .mbar .btn{justify-content:center;padding:.85rem 1rem}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+}
+</style>
+</head>
+<body>
+
+<a class="sr" href="#main">Skip to main content</a>
+
+<div class="hood">
+  <div class="topbar">
+    <div class="wrap">
+      <div class="tb-l">
+        <a href="tel:+17809644122">(780) 964-4122</a>
+        <a href="mailto:crystalhoodcleaning@gmail.com">crystalhoodcleaning@gmail.com</a>
+        <a href="https://maps.google.com/?q=2962+141st+SW+Edmonton+T6W+3G3" target="_blank" rel="noopener">2962 141st SW, Edmonton</a>
+      </div>
+      <div class="tb-r">
+        <a class="soc" href="https://facebook.com/crystalhoodcleaning" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14 8h3V4h-3c-2.8 0-4.5 1.8-4.5 4.6V11H7v4h2.5v9h4v-9h3l.5-4h-3.5V8.8c0-.5.3-.8.5-.8z"/></svg></a>
+        <a class="soc" href="https://instagram.com/crystalhoodcleaning2025" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
+        <a class="soc" href="https://tiktok.com/@crystalhoodcleaning" target="_blank" rel="noopener" aria-label="TikTok"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.5 3c.4 2.3 1.9 3.9 4 4.1v3.3c-1.5 0-2.9-.4-4-1.2v6.4A5.6 5.6 0 1 1 11 10v3.4a2.3 2.3 0 1 0 2.2 2.3V3h3.3z"/></svg></a>
+        <a class="soc" href="https://api.whatsapp.com/send?phone=17809644122" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .1-3.3-.8-2.8-1.1-4.5-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.4.6-.4.4c-.1.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.2.5.1.6-.1l.9-1.1c.2-.3.4-.2.6-.1l1.9.9c.3.1.5.2.5.3.1.1.1.7-.1 1.2z"/></svg></a>
+      </div>
+    </div>
+  </div>
+
+  <header class="nav" id="top">
+    <div class="wrap">
+      <a class="brand" href="#top" aria-label="Crystal Hood Cleaning home"><img src="images/logo-horizontal-green.png" alt="Crystal Hood Cleaning" width="1077" height="264"></a>
+      <ul class="menu" id="menu">
+        <li><a href="#top" aria-current="page">Home</a></li>
+        <li><a href="#services">Our Services</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a class="nav-phone" href="tel:+17809644122">780-964-4122</a>
+        <a class="btn btn-green" href="#contact">Request quote / Book now</a>
+        <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero" id="main">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <h1><span>The ultimate</span><span>hood cleaning.</span></h1>
+        <p class="tag">Spotless results, every time.</p>
+        <p class="intro">Professional, reliable commercial kitchen hood cleaning for businesses across Canada, with a strong focus on safety, compliance and cleanliness.</p>
+        <div class="hero-ctas">
+          <a class="btn btn-green" href="#contact">Request quote / Book now</a>
+          <a class="btn btn-ghost" href="tel:+17809644122"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg>Call 780-964-4122</a>
+        </div>
+        <ul class="checks">
+          <li>Exhaust system cleaning &amp; degreasing</li>
+          <li>Exhaust access panel installation</li>
+          <li>Exhaust fan hinges installation</li>
+          <li>Rooftop grease containment</li>
+          <li>Exhaust belt replacement</li>
+          <li>Fire code &amp; bylaw compliant</li>
+        </ul>
+      </div>
+      <div class="hero-photo">
+        <div class="frame"><img src="images/hero-kitchen.jpg" alt="Clean stainless steel commercial kitchen with exhaust hoods above the cooking line" width="1920" height="1280"></div>
+        <div class="badge">
+          <img src="images/badge-pac.jpg" alt="Phil Ackland PAC Certified badge" width="520" height="440">
+          <div><strong>PAC certified</strong><span>PA qualified company with legally certified technicians</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="lip" aria-hidden="true"><div class="strip"><i></i><i></i><i></i><b></b><i></i><i></i><i></i></div></div>
+</div>
+
+<section class="creds" aria-label="Certifications">
+  <div class="wrap">
+    <div class="creds-logos">
+      <img src="images/badge-nfpa.jpg" alt="NFPA" width="520" height="520">
+      <img src="images/badge-pa.jpg" alt="Phil Ackland PA Qualified Company" width="520" height="520">
+      <img src="images/badge-pac.jpg" alt="Phil Ackland PAC Certified" width="520" height="440">
+    </div>
+    <p>We are a <strong>PAC certified</strong> and <strong>PA qualified</strong> company, working according to the <strong>region’s bylaws</strong> and <strong>fire code regulations</strong>.</p>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div class="wrap about-grid">
+    <figure class="about-photo" style="margin:0">
+      <img src="images/hood-job.jpg" alt="Freshly cleaned stainless steel kitchen hood with baffle filters, cleaned by Crystal Hood Cleaning" width="1919" height="1445">
+      <figcaption>Cleaned by our team</figcaption>
+    </figure>
+    <div>
+      <h2 class="h-wide">Your trusted commercial hood cleaning company</h2>
+      <p class="lede">At Crystal Hood Cleaning, we specialize in professional and reliable commercial hood cleaning services for businesses across Canada. We make sure your kitchen exhaust system is thoroughly cleaned and maintained to the highest standards.</p>
+      <ul class="facts">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg><div><strong>Legally certified technicians</strong><span>Our technicians undergo extensive training to become legally certified to clean hoods.</span></div></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="9" r="6"/><path d="M8.5 14l-1.5 7 5-3 5 3-1.5-7"/></svg><div><strong>PAC certified, PA qualified</strong><span>Working according to region’s bylaws and fire code regulations.</span></div></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 21V9l8-6 8 6v12"/><path d="M9 21v-6h6v6"/></svg><div><strong>A clean, safe environment</strong><span>For your staff and your customers. Experience the difference of a truly sparkling kitchen.</span></div></li>
+      </ul>
+      <a class="btn btn-ink" href="#contact">Get a free quote</a>
+    </div>
+  </div>
+</section>
+
+<section class="why" aria-labelledby="why-h">
+  <div class="wrap">
+    <div class="why-head">
+      <h2 class="h-wide h-sec" id="why-h">A clean exhaust keeps your kitchen running</h2>
+      <p>Our commercial kitchen hood cleaning services keep your kitchen safe, compliant and functioning at its best. We understand how important it is to maintain your kitchen’s exhaust system.</p>
+    </div>
+    <div class="why-list">
+      <article>
+        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"><path d="M24 5c2 8 11 11 11 22a11 11 0 0 1-22 0c0-6 3-9 5-12 0 5 3 7 5 7-1-6 1-12 1-17z"/></svg>
+        <h3>Prevent fire hazards</h3>
+        <p>Grease builds up inside hoods, ducts and fans. Regular degreasing removes it before it becomes a risk.</p>
+      </article>
+      <article>
+        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M6 16h24a6 6 0 1 0-6-6"/><path d="M6 26h32a6 6 0 1 1-6 6"/><path d="M6 36h14"/></svg>
+        <h3>Improve air quality</h3>
+        <p>A clean exhaust system moves smoke and heat out properly, so your kitchen stays comfortable to work in.</p>
+      </article>
+      <article>
+        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"><rect x="9" y="6" width="30" height="36" rx="3"/><path d="M16 16h16M16 23h16M16 30h9"/><path d="M28 32l3 3 6-7"/></svg>
+        <h3>Stay compliant</h3>
+        <p>We work to local regulations, region’s bylaws and fire code requirements for commercial kitchens.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="services" id="services">
+  <div class="wrap">
+    <h2 class="h-wide h-sec">Our services, from hood to rooftop</h2>
+    <p class="lede">Every service we offer sits somewhere along your kitchen exhaust system. Tap or hover a service to see where it is.</p>
+    <div class="services-grid">
+      <aside class="schematic" aria-hidden="true">
+        <svg viewBox="0 0 340 460" id="sch">
+          <!-- roof -->
+          <path class="sch-faint" d="M10 120H330"/>
+          <!-- containment tray -->
+          <path class="sch-stroke" d="M100 118v-10h140v10" style="stroke:var(--green-ink)"/>
+          <!-- fan housing -->
+          <path class="sch-fill" d="M130 108V70h80v38z"/>
+          <path class="sch-stroke" d="M130 108V70h80v38zM120 70h100M140 70c0-24 60-24 60 0"/>
+          <path class="sch-stroke" d="M150 88h40" />
+          <!-- hinge -->
+          <circle cx="210" cy="64" r="5" class="sch-stroke"/>
+          <!-- duct -->
+          <path class="sch-fill" d="M150 120h40v190h-40z"/>
+          <path class="sch-stroke" d="M150 120v190M190 120v190"/>
+          <path class="sch-faint" d="M10 200H330"/>
+          <!-- access panel -->
+          <rect x="155" y="222" width="30" height="40" rx="2" class="sch-stroke" style="fill:var(--paper)"/>
+          <!-- hood -->
+          <path class="sch-fill" d="M150 310l-90 50v26h220v-26l-90-50z"/>
+          <path class="sch-stroke" d="M150 310l-90 50v26h220v-26l-90-50"/>
+          <path d="M80 366l12 16M98 366l12 16M116 366l12 16M134 366l12 16M152 366l12 16M170 366l12 16M188 366l12 16M206 366l12 16M224 366l12 16M242 366l12 16" stroke="var(--line)" stroke-width="2"/>
+          <!-- cooking line -->
+          <path class="sch-stroke" d="M50 430h240M70 430v-14h200v14"/>
+          <path d="M110 412c-4-6 4-10 0-16M150 412c-4-6 4-10 0-16M190 412c-4-6 4-10 0-16M230 412c-4-6 4-10 0-16" stroke="var(--green-ink)" stroke-width="2" fill="none" stroke-linecap="round"/>
+          <!-- pins -->
+          <g class="pin" data-pin="degrease"><circle class="halo" cx="285" cy="360" r="18"/><circle class="dot" cx="285" cy="360" r="8"/><text x="299" y="345">Hood</text></g>
+          <g class="pin" data-pin="panel"><circle class="halo" cx="200" cy="242" r="18"/><circle class="dot" cx="200" cy="242" r="8"/><text x="214" y="247">Duct</text></g>
+          <g class="pin" data-pin="hinge"><circle class="halo" cx="222" cy="56" r="18"/><circle class="dot" cx="222" cy="56" r="8"/><text x="236" y="52">Fan</text></g>
+          <g class="pin" data-pin="roof"><circle class="halo" cx="92" cy="114" r="18"/><circle class="dot" cx="92" cy="114" r="8"/><text x="20" y="100">Roof</text></g>
+          <g class="pin" data-pin="belt"><circle class="halo" cx="140" cy="88" r="18"/><circle class="dot" cx="140" cy="88" r="8"/><text x="96" y="80">Belt</text></g>
+        </svg>
+        <p class="cap">Your kitchen exhaust system, cooking line to rooftop fan.</p>
+      </aside>
+      <ul class="svc-list">
+        <li class="svc" data-pin="degrease" tabindex="0">
+          <img src="images/service-degreasing.jpg" alt="Clean kitchen hood baffle filters after degreasing" width="960" height="720" loading="lazy">
+          <div><span class="where">Hood and ductwork</span><h3>Kitchen exhaust system cleaning and degreasing</h3><p>We clean and degrease the hood, filters and ductwork so grease doesn’t build up where you can’t see it.</p></div>
+        </li>
+        <li class="svc" data-pin="panel" tabindex="0">
+          <img src="images/service-access-panel.jpg" alt="Commercial kitchen exhaust ductwork" width="960" height="720" loading="lazy">
+          <div><span class="where">Ductwork</span><h3>Exhaust access panel installation</h3><p>Access panels open up the duct run so every section of it can be reached and cleaned properly.</p></div>
+        </li>
+        <li class="svc" data-pin="hinge" tabindex="0">
+          <img src="images/service-fan-hinges.jpg" alt="Commercial kitchen exhaust system" width="960" height="720" loading="lazy">
+          <div><span class="where">Rooftop fan</span><h3>Exhaust fan hinges installation</h3><p>Hinges let the rooftop fan tilt open safely for cleaning and inspection.</p></div>
+        </li>
+        <li class="svc" data-pin="roof" tabindex="0">
+          <img src="images/service-rooftop.jpg" alt="Stainless steel exhaust hood" width="960" height="720" loading="lazy">
+          <div><span class="where">Roof</span><h3>Rooftop grease containment</h3><p>Containment around the fan catches grease before it reaches and damages your roof.</p></div>
+        </li>
+        <li class="svc" data-pin="belt" tabindex="0">
+          <img src="images/service-belt.jpg" alt="Commercial kitchen cooking line under exhaust hoods" width="960" height="720" loading="lazy">
+          <div><span class="where">Rooftop fan</span><h3>Exhaust belt replacement</h3><p>A worn fan belt weakens your exhaust. We replace it to keep air moving the way it should.</p></div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="when" aria-labelledby="when-h">
+  <div class="wrap">
+    <h2 class="h-wide h-sec" id="when-h">Always there for your kitchen exhaust system</h2>
+    <div class="when-grid">
+      <div class="when-card">
+        <img src="images/hero-kitchen.jpg" alt="" loading="lazy" style="object-position:70% 40%">
+        <div><h3>Regular cleaning and maintenance</h3><p>Keep your hoods, ducts and fans on a regular schedule so your kitchen stays safe and compliant.</p></div>
+      </div>
+      <div class="when-card">
+        <img src="images/hood-job.jpg" alt="" loading="lazy" style="object-position:20% 60%">
+        <div><h3>Changing ownership</h3><p>Taking over or selling a restaurant? Start fresh with a clean kitchen exhaust system.</p></div>
+      </div>
+    </div>
+    <p class="when-or">Whatever the reason, <strong>Crystal Hood Cleaning is always there</strong> for your kitchen exhaust system cleaning.</p>
+  </div>
+</section>
+
+<section class="reviews" aria-labelledby="rev-h">
+  <div class="wrap">
+    <h2 class="sr" id="rev-h">What our clients say</h2>
+    <div class="reviews-grid">
+      <blockquote class="q-big">
+        <svg viewBox="0 0 56 44" fill="currentColor" aria-hidden="true"><path d="M0 44V26C0 11 7 2 21 0l2 7c-7 2-11 7-11 13h10v24zm33 0V26C33 11 40 2 54 0l2 7c-7 2-11 7-11 13h10v24z"/></svg>
+        <p>Crystal Hood Cleaning did an amazing job cleaning our restaurant’s kitchen hood. The team was professional and efficient. Highly recommend their services!</p>
+        <div class="q-by"><i>JD</i><span>John Doe<small>Kitchen hood cleaning</small></span></div>
+      </blockquote>
+      <blockquote class="q-side">
+        <p>Crystal Hood Cleaning did an excellent job cleaning our kitchen exhaust system. The team was professional and efficient, and the results were outstanding.</p>
+        <div class="q-by"><i>JD</i><span>John Doe<small>Kitchen exhaust system cleaning</small></span></div>
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact" aria-labelledby="c-h">
+  <div class="wrap contact-grid">
+    <div>
+      <h2 class="h-wide h-sec" id="c-h">Need a service? Get a free quote.</h2>
+      <p class="lede">For any inquiries or to arrange a service, contact us using the details below, or send us your request with the form.</p>
+      <ul class="c-list">
+        <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg></span><div><small>Phone</small><a href="tel:+17809644122">(780) 964-4122</a></div></li>
+        <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></span><div><small>Email</small><a href="mailto:crystalhoodcleaning@gmail.com">crystalhoodcleaning@gmail.com</a></div></li>
+        <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-6.5-7-12a7 7 0 0 1 14 0c0 5.5-7 12-7 12z"/><circle cx="12" cy="9" r="2.5"/></svg></span><div><small>Address</small><span class="v">2962 141st SW, Edmonton T6W 3G3</span></div></li>
+      </ul>
+      <div class="c-soc">
+        <a class="soc" href="https://facebook.com/crystalhoodcleaning" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14 8h3V4h-3c-2.8 0-4.5 1.8-4.5 4.6V11H7v4h2.5v9h4v-9h3l.5-4h-3.5V8.8c0-.5.3-.8.5-.8z"/></svg></a>
+        <a class="soc" href="https://instagram.com/crystalhoodcleaning2025" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
+        <a class="soc" href="https://tiktok.com/@crystalhoodcleaning" target="_blank" rel="noopener" aria-label="TikTok"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.5 3c.4 2.3 1.9 3.9 4 4.1v3.3c-1.5 0-2.9-.4-4-1.2v6.4A5.6 5.6 0 1 1 11 10v3.4a2.3 2.3 0 1 0 2.2 2.3V3h3.3z"/></svg></a>
+        <a class="soc" href="https://api.whatsapp.com/send?phone=17809644122" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .1-3.3-.8-2.8-1.1-4.5-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.4.6-.4.4c-.1.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.2.5.1.6-.1l.9-1.1c.2-.3.4-.2.6-.1l1.9.9c.3.1.5.2.5.3.1.1.1.7-.1 1.2z"/></svg></a>
+      </div>
+    </div>
+
+    <form class="form" id="quote" novalidate>
+      <h3>Request a quote</h3>
+      <p>Fill this in and your email or WhatsApp opens with the details ready to send.</p>
+      <div class="fg">
+        <div class="f"><label for="q-name">Name</label><input id="q-name" name="name" autocomplete="name" required><span class="err">Add your name</span></div>
+        <div class="f"><label for="q-phone">Phone</label><input id="q-phone" name="phone" type="tel" autocomplete="tel" required><span class="err">Add your phone number</span></div>
+        <div class="f full"><label for="q-biz">Business name (optional)</label><input id="q-biz" name="business" autocomplete="organization"></div>
+        <div class="f full"><label for="q-svc">Service needed</label>
+          <select id="q-svc" name="service" required>
+            <option value="">Choose a service</option>
+            <option>Kitchen exhaust system cleaning and degreasing</option>
+            <option>Exhaust access panel installation</option>
+            <option>Exhaust fan hinges installation</option>
+            <option>Rooftop grease containment</option>
+            <option>Exhaust belt replacement</option>
+          </select><span class="err">Choose a service</span></div>
+        <div class="f full"><label for="q-msg">Message (optional)</label><textarea id="q-msg" name="message"></textarea></div>
+      </div>
+      <div class="form-actions">
+        <button class="btn btn-green" type="submit" data-via="email">Send by email</button>
+        <button class="btn btn-ink" type="submit" data-via="whatsapp">Send on WhatsApp</button>
+      </div>
+      <p class="form-note">We reply to confirm your quote and a time that suits your kitchen.</p>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="f-grid">
+      <div class="f-brand">
+        <img src="images/logo-stacked-green.png" alt="Crystal Hood Cleaning" loading="lazy">
+        <p>The ultimate hood cleaning. Spotless results, every time.</p>
+      </div>
+      <div>
+        <h4>Our services</h4>
+        <ul>
+          <li><a href="#services">Exhaust cleaning &amp; degreasing</a></li>
+          <li><a href="#services">Access panel installation</a></li>
+          <li><a href="#services">Fan hinges installation</a></li>
+          <li><a href="#services">Rooftop grease containment</a></li>
+          <li><a href="#services">Exhaust belt replacement</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Quick links</h4>
+        <ul>
+          <li><a href="#top">Home</a></li>
+          <li><a href="#services">Our Services</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Get in touch</h4>
+        <ul>
+          <li><a href="tel:+17809644122">(780) 964-4122</a></li>
+          <li><a href="mailto:crystalhoodcleaning@gmail.com">crystalhoodcleaning@gmail.com</a></li>
+          <li>2962 141st SW<br>Edmonton T6W 3G3</li>
+        </ul>
+      </div>
+    </div>
+    <div class="f-bottom">
+      <span>© 2025–2026 Crystal Hood Cleaning. All rights reserved.</span>
+      <span>Design by <a href="https://cleaningdigital.ca/" target="_blank" rel="noopener">Cleaning Digital</a>.</span>
+    </div>
+  </div>
+</footer>
+
+<div class="mbar">
+  <a class="btn btn-ghost" href="tel:+17809644122">Call now</a>
+  <a class="btn btn-green" href="#contact">Free quote</a>
+</div>
+
+<script>
+(function(){
+  var nav=document.querySelector('.nav');
+  window.addEventListener('scroll',function(){nav.classList.toggle('scrolled',window.scrollY>40)},{passive:true});
+
+  var burger=document.getElementById('burger'),menu=document.getElementById('menu');
+  burger.addEventListener('click',function(){
+    var open=menu.classList.toggle('open');burger.setAttribute('aria-expanded',open);
+  });
+  menu.addEventListener('click',function(e){if(e.target.tagName==='A'){menu.classList.remove('open');burger.setAttribute('aria-expanded','false')}});
+
+  // Link each service row to its point on the exhaust schematic
+  var pins=document.querySelectorAll('.pin');
+  function light(key){
+    pins.forEach(function(p){p.classList.toggle('on',p.dataset.pin===key)});
+    document.querySelectorAll('.svc').forEach(function(s){s.classList.toggle('on',s.dataset.pin===key)});
+  }
+  document.querySelectorAll('.svc').forEach(function(s){
+    s.addEventListener('mouseenter',function(){light(s.dataset.pin)});
+    s.addEventListener('focus',function(){light(s.dataset.pin)});
+  });
+  light('degrease');
+
+  // Quote form: opens email or WhatsApp with the details filled in
+  var form=document.getElementById('quote'),via='email';
+  form.querySelectorAll('button[type=submit]').forEach(function(b){b.addEventListener('click',function(){via=b.dataset.via})});
+  form.addEventListener('submit',function(e){
+    e.preventDefault();
+    var ok=true;
+    ['q-name','q-phone','q-svc'].forEach(function(id){
+      var el=document.getElementById(id),bad=!el.value.trim();
+      el.parentNode.classList.toggle('bad',bad);if(bad&&ok){el.focus();ok=false}
+    });
+    if(!ok)return;
+    var d=new FormData(form);
+    var text='Quote request for Crystal Hood Cleaning\n\nName: '+d.get('name')+'\nPhone: '+d.get('phone')+
+      (d.get('business')?'\nBusiness: '+d.get('business'):'')+'\nService: '+d.get('service')+
+      (d.get('message')?'\n\n'+d.get('message'):'');
+    if(via==='whatsapp'){
+      window.open('https://api.whatsapp.com/send?phone=17809644122&text='+encodeURIComponent(text),'_blank','noopener');
+    }else{
+      window.location.href='mailto:crystalhoodcleaning@gmail.com?subject='+encodeURIComponent('Quote request: '+d.get('service'))+'&body='+encodeURIComponent(text);
+    }
+  });
+})();
+</script>
+</body>
+</html>
